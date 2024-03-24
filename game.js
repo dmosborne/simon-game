@@ -95,3 +95,5 @@ function startOver() {
   gamePattern = [];
   started = false;
 }
+
+touchstart.addEventListener("touchstart", (document).keypress());
