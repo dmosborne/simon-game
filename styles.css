@@ -55,7 +55,7 @@ h2 {
   background-color: grey;
 }
 
-.touchstart{
+.mobile{
   display: inline-block;
   border: 5px solid black;
   border-radius: 20%;
