@@ -96,3 +96,4 @@ function startOver() {
   started = false;
 }
 
+mobile.ontouchstart = startOver;
