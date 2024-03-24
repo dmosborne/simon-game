@@ -31,6 +31,9 @@ body {
   opacity: 0.8;
 }
 
+h2 {
+  color: white;
+}
 .red {
   background-color: red;
 }
