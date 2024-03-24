@@ -96,4 +96,4 @@ function startOver() {
   started = false;
 }
 
-touchstart.addEventListener("touchstart", (document).keypress());
+touchstart.addEventListener("touchstart", ("btn").click());
