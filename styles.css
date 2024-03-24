@@ -54,3 +54,16 @@ h2 {
   box-shadow: 0 0 20px white;
   background-color: grey;
 }
+
+.touchstart{
+  display: inline-block;
+  border: 5px solid black;
+  border-radius: 20%;
+  color: white;
+  font-size: 40px;
+  font-weight: bold;
+  position: relative;
+  text-align: center;
+  height: 100px;
+  width: 100px;
+}
