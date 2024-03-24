@@ -91,4 +91,3 @@ function startOver() {
   gamePattern = [];
   started = false;
 }
-mobile.ontouchstart = startOver;
