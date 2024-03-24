@@ -18,10 +18,6 @@ if (!started) {
   }
 });
 
-addEventListener("touchstart", $(document) => {});
-
-ontouchstart = $(document) => {};
-
 $(".btn").click(function() {
 
 var userChosenColour = $(this).attr("id");
@@ -95,5 +91,4 @@ function startOver() {
   gamePattern = [];
   started = false;
 }
-
 mobile.ontouchstart = startOver;
