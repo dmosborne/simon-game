@@ -96,4 +96,3 @@ function startOver() {
   started = false;
 }
 
-touchstart.addEventListener("touchstart", ("btn").click());
