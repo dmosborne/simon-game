@@ -29,6 +29,8 @@ animatePress(userChosenColour);
 checkAnswer(userClickedPattern.length-1);
 });
 
+document.addEventListener("touchstart", ".btn");
+
 function checkAnswer(currentLevel) {
   if (gamePattern[currentLevel] === userClickedPattern[currentLevel]) {
     console.log("sucess");
