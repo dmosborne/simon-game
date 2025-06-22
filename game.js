@@ -53,7 +53,7 @@ function checkAnswer(currentLevel) {
         setTimeout(function () {
             $('body').removeClass("game-over");
         }, 200);
-        $("h1").text("Game Over, Press Any Key (Tap Anywhere On Mobile) To Restart");
+        $("h1").text("Game Over, Press Any Key To Restart");
         startOver();
     }
 }
