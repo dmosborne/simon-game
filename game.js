@@ -18,6 +18,10 @@ $(document).on("keypress touchstart", function () {
     }
 });
 
+document.getElementById('restartBtn').addEventListener('click', () => {
+  resetGame();
+});
+
 $(".btn").click(function () {
 
     var userChosenColour = $(this).attr("id");
