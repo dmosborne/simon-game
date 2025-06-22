@@ -9,6 +9,10 @@ var userClickedPattern = [];
 var started = false;
 var level = 0;
 
+document.getElementById('restartBtn').addEventListener('click', () => {
+  resetGame();
+});
+
 
 $(document).on("keypress touchstart", function () {
     if (!started) {
@@ -16,10 +20,6 @@ $(document).on("keypress touchstart", function () {
         nextSequence();
         started = true;
     }
-});
-
-document.getElementById('restartBtn').addEventListener('click', () => {
-  resetGame();
 });
 
 $(".btn").click(function () {
